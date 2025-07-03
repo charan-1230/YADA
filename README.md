@@ -1,5 +1,5 @@
-YADA - Yet Another Diet App
-==========================
+YADA - Yet Another Diet Assistant
+=================================
 
 OVERVIEW
 --------
@@ -8,12 +8,11 @@ YADA is a diet tracking application that allows users to:
 - Browse and search a database of basic and composite foods
 - Create custom foods and recipes
 - Calculate nutritional needs based on personal data
-- Import food data from external websites
 
 TECHNICAL DETAILS
 -----------------
-Language Used : JAVA
-DataBase Format : JSON
+- Language Used : JAVA
+- DataBase Format : JSON
 
 RUNNING THE APPLICATION
 ----------------------
@@ -26,7 +25,7 @@ RUNNING THE APPLICATION
 Note: The application requires the json-simple library in the lib directory.
 
 FEATURES AND HOW TO USE THEM
----------------------------
+----------------------------
 
 1. USER ACCOUNT MANAGEMENT
    - Sign up: Create a new account with your personal information
@@ -54,15 +53,6 @@ FEATURES AND HOW TO USE THEM
    - Get personalized calorie intake recommendations
    - Analyze your current diet against your goals
 
-6. WEB FOOD IMPORT (NEW FEATURE)
-   - Import food data from external websites
-   - Currently supports McDonald's and USDA food databases
-   - To use this feature:
-     1. From the Food Database menu, select "Import Foods from Web"
-     2. Choose an import source (McDonald's or USDA)
-     3. Enter the URL or API endpoint
-     4. Review and select foods to import into your database
-
 FOOD LOGGING BEHAVIOR
 -------------------
 When adding the same food to your diet log for the same day:
@@ -84,4 +74,7 @@ TIPS FOR BEST EXPERIENCE
 1. Save your database regularly using the "Save Database" option
 2. Use detailed keywords when creating custom foods for better search results
 3. Break complex recipes into their component ingredients for more accurate tracking
-4. When importing from web sources, verify nutritional information is correct
+
+FUTURE IMPROVEMENTS
+-------------------
+- The design supports easy extension for importing food data from external websites.
