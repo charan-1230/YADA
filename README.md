@@ -14,6 +14,15 @@ TECHNICAL DETAILS
 - Language Used : JAVA
 - DataBase Format : JSON
 
+OBJECT-ORIENTED PROGRAMMING (OOPS) USAGE
+----------------------------------------
+YADA is designed using core Object-Oriented Programming principles:
+- **Encapsulation:** User, Food, and Diet Log data are managed through dedicated classes, keeping data and related methods together.
+- **Abstraction:** Complex operations (like nutritional calculations and food management) are abstracted into methods and classes, hiding implementation details from the user.
+- **Inheritance:** Food types (e.g., BasicFood, CompositeFood) are implemented as subclasses, allowing code reuse and extension.
+- **Polymorphism:** The application can handle different food types and user actions through common interfaces and method overriding.
+
+
 RUNNING THE APPLICATION
 ----------------------
 1. Ensure Java is installed on your system (JDK 11 or later recommended)
